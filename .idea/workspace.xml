@@ -4,23 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../foodiesapi-clean/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../foodiesapi-clean/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../foodiesapi-clean/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../foodiesapi-clean/src/main/java/com/project/foodiesapi/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../foodiesapi-clean/src/main/java/com/project/foodiesapi/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../foodiesapi-clean/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../foodiesapi-clean/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../foodiesapi-clean" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adityaBhatt02"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/adityaBhatt02/DSA.git",
+    "accountId": "d09a8d0c-d91f-4c82-92d1-57facc6012a2"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="350r4uQ7xnJQePwRUmT0iGmbTYh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,10 +37,26 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "documentdb"
+    ]
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="" />
@@ -43,5 +66,8 @@
       <updated>1762257645309</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
