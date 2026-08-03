@@ -4,14 +4,14 @@ class Solution {
         if(arr.length < 3) return false;
 
         int peak = peakFunc(arr);
-        if (peak == 0 || peak == arr.length - 1) {
+        if (peak == 0 || peak == arr.length - 1) {             // peak cant me at first or last
             return false;
         }
 
-        for(int i = 0 ; i < peak ; i++) {
+        for(int i = 0 ; i < peak ; i++) {                      // ascending part 
             if(arr[i] >= arr[i + 1]) return false;
         }
-        for(int i = peak ; i < arr.length - 1 ; i++) {
+        for(int i = peak ; i < arr.length - 1 ; i++) {         // descending part 
             if(arr[i] <= arr[i + 1]) return false;
         }
 
