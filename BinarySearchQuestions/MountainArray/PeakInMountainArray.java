@@ -21,7 +21,7 @@ public class PeakInMountainArray {
                 start = mid + 1;
             }
         }
-        return start;
+        return start;                                       // start or end both will give same 
 }}
 
 
