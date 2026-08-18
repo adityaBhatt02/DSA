@@ -7,8 +7,8 @@ class TopKFrequentElements {
         }
 
         PriorityQueue<Integer> pq = new PriorityQueue<>(
-            (a,b) -> {
-                return map.get(a) - map.get(b);
+            (a,b) -> { 
+                return map.get(a) - map.get(b);                               // sort on the basis of frequency of the key
             }
         );
 
