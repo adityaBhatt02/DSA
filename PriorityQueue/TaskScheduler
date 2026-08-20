@@ -47,6 +47,7 @@ class TaskScheduler {
         while(!pq.isEmpty() || !queue.isEmpty()) {
             time++;
 
+            // check if there is a task in priority queue and process it 
             if(!pq.isEmpty()) {
                 Task task = pq.poll();
                 task.freq --;
@@ -57,6 +58,7 @@ class TaskScheduler {
                 }
             }
 
+            // shift active process to priority queue
             if(!queue.isEmpty() && queue.peek().executionTime == time) pq.offer(queue.poll());
         }
 
