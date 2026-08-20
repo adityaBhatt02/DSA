@@ -1,4 +1,6 @@
 /*
+PriorityQueue + Queue = task scheduling with cooldown.
+
 Example 1:
 
 Input: tasks = ["A","A","A","B","B","B"], n = 2
