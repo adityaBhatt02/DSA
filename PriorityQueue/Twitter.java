@@ -70,6 +70,7 @@ class Twitter {
             }
         }
 
+        // user's own tweets
         int count = 0;
         for(Tweet tweet : user.tweets) {
             pq.offer(tweet);
@@ -79,9 +80,8 @@ class Twitter {
         }
 
         List<Integer> result = new ArrayList<>();
-
-        // user's own tweets
         int index = 0;
+        
         while(!pq.isEmpty() && index < 10) {
             result.add(pq.poll().tweetId);
             index++;
