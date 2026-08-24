@@ -14,7 +14,6 @@ public class RemoveDuplicateFromSortedArray2 {
             if(nums[i] != nums[k - 2]){
                 nums[k] = nums[i];
                 k++;
-
         }}
         return k;
     }

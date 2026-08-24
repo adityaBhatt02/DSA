@@ -1,7 +1,7 @@
 package String;
 
 /*
-Isme we are reverse only every word in string not there positions.
+Isme we are reversing only every word in string not there positions.
 Mr Ding!  ->  rM !gniD
  */
 

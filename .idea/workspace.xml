@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="" />
+    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/LargestNumber/SecondLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/LargestNumber/SecondLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/RemovingTypes/RemoveDuplicateFromSortedArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/RemovingTypes/RemoveDuplicateFromSortedArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/StringReverse1.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/StringReverse1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "adityaBhatt02"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;adityaBhatt02&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/adityaBhatt02/DSA.git",
-    "accountId": "d09a8d0c-d91f-4c82-92d1-57facc6012a2"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/adityaBhatt02/DSA.git&quot;,
+    &quot;accountId&quot;: &quot;d09a8d0c-d91f-4c82-92d1-57facc6012a2&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -37,11 +42,19 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -49,6 +62,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Array\LargestNumber" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
