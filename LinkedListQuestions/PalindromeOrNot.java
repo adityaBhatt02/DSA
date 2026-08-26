@@ -5,18 +5,14 @@ public class PalindromeOrNot {
                 ListNode middle = middle(head);
                 ListNode secondHead = reverse(middle);
 
-                ListNode reverseHead = secondHead;
-
                 while(head != null && secondHead != null) {
                     if(head.val != secondHead.val) {
-                        reverse(reverseHead);
+                        reverse(secondHead);
                         return false;
                     }
                     head = head.next;
                     secondHead = secondHead.next;
                 }
-
-                reverse(reverseHead);
                 return true;
             }
 
