@@ -2,8 +2,8 @@ package LinkedListQuestions;
 
 /*
 (Approach) We solve this in three main steps:
--> Find the middle of the list using slow & fast pointers.
--> Reverse the second half of the list.
+-> Find the middle of the list.
+-> Reverse the second half of the list (mid + 1) node.
 -> Merge both halves alternately.
 
 Given L0 → L1 → … → Ln-1 → Ln,
@@ -15,45 +15,49 @@ Output: 1 → 5 → 2 → 4 → 3
  */
 
 public class ReorderList {
-        public void reorderList(Node head) {
-            if (head == null || head.next == null) return;
+    public void reorderList(ListNode head) {
+        if(head == null || head.next == null) return;
 
-            // Step 1: Find middle (slow will point to middle)
-            Node slow = head;
-            Node fast = head;
-            while (fast != null && fast.next != null) {
-                slow = slow.next;
-                fast = fast.next.next;
-            }
+        ListNode middleNode = middle(head);
+        ListNode second = reverse(middleNode.next);
 
-            // Step 2: Reverse second half
-            Node second = reverseList(slow.next);
-            slow.next = null; // cut the list into two halves
+        middleNode.next = null;
+        ListNode first = head;
 
-            // Step 3: Merge two halves
-            Node first = head;
-            while (second != null) {
-                Node temp1 = first.next;
-                Node temp2 = second.next;
+        while(second != null) {
+            ListNode firstNext = first.next;
+            ListNode secondNext = second.next;
 
-                first.next = second;
-                second.next = temp1;
+            first.next = second;
+            second.next = firstNext;
 
-                first = temp1;
-                second = temp2;
-            }
+            first = firstNext;
+            second = secondNext;
         }
+    }
 
-        // Helper function to reverse a linked list
-        private Node reverseList(Node head) {
-            Node prev = null;
-            Node curr = head;
-            while (curr != null) {
-                Node nextTemp = curr.next;
-                curr.next = prev;
-                prev = curr;
-                curr = nextTemp;
-            }
-            return prev;
+    private ListNode middle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
+        return slow;
+    }
+
+    private ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        ListNode pres = head;
+
+        while(pres != null) {
+            ListNode next = pres.next;
+
+            pres.next = prev;
+            prev = pres;
+            pres = next;
+        }
+        return prev;
+    }
 }
