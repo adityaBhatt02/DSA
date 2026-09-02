@@ -46,7 +46,7 @@ element decrease the vote ( i.e, count--)
 And most imp thing is that majority element is majority becz no one can cancel it fully becz it apprears more than n/2 times.
 */
 
-public class MajorityElement {
+public class MajorityElementI {
     public int majorityElement(int[] nums) {
         int candidate = nums[0];
         int count = 0;
