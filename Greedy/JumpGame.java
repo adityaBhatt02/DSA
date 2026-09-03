@@ -9,13 +9,13 @@ public class JumpGame {
         there is 0 in b/w then it will stop there and will never reaches the end isliye if the i exceeds the maxLength means 0 is present so return false.
        */
         public boolean canJump(int[] nums) {
-            int maxLength = 0;
+            int maxReach = 0;
             for(int i = 0 ; i < nums.length ; i++) {
-                if(i > maxLength) return false;
+                if(i > maxReach) return false;
 
-                maxLength = Math.max(maxLength , i + nums[i]);
+                maxReach = Math.max(maxReach , i + nums[i]);
 
-                if(maxLength >= nums.length - 1) return true;
+                if(maxReach >= nums.length - 1) return true;
             }
             return false;
         }
