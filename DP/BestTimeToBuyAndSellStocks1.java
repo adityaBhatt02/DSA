@@ -2,6 +2,8 @@ package DP;
 
 /*
 Each price[i] represents price of a particular stock at ith day.
+Interview : "I'll maintain the minimum price seen so far as the best buying point. For each current price, I'll calculate the profit if I sell today and keep track of the maximum profit. 
+This gives O(n) time and O(1) space"
 
 Input: prices = [7,1,5,3,6,4]
 Output: 5
