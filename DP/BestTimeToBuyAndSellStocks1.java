@@ -22,7 +22,7 @@ public class BestTimeToBuyAndSellStocks1 {
             if (price < minPrice) {
                 minPrice = price;
             } else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice;
+                maxProfit = Math.max(price - minPrice);
             }
         }
 
