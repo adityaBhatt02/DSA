@@ -12,6 +12,8 @@ Output: 2
 
 public class JumpGame2 {
     public int jump(int[] nums) {
+        if(nums.length <= 1) return 0;
+        
         int jump = 0 , currentEnd = 0 , maxReach = 0;
 
         for(int i = 0 ; i < nums.length - 1 ; i++) {
