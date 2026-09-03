@@ -12,14 +12,14 @@ Output: 2
 
 public class JumpGame2 {
     public int jump(int[] nums) {
-        int jump = 0 , currentEnd = 0 , farthest = 0;
+        int jump = 0 , currentEnd = 0 , maxReach = 0;
 
         for(int i = 0 ; i < nums.length - 1 ; i++) {
-            farthest = Math.max(farthest , nums[i] + i);
+            maxReach = Math.max(maxReach , nums[i] + i);
 
             if(currentEnd == i) {
                 jump++;
-                currentEnd = farthest;
+                currentEnd = maxReach;
 
                 if(currentEnd >= nums.length - 1) break;
             }
