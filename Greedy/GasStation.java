@@ -12,6 +12,12 @@ Output: 3
 Example 2:
 Input: gas = [2,3,4], cost = [3,4,3]
 Output: -1
+
+
+Approach is that first of all its a circular loop like so after last station it goes to station 0 so whatever the station which doesnt give us -ve till the last station like the gas.length - 1
+that station is the answer for eg if we start with station 4 then goes to station 5 then calculate the net and add if at last station its not -ve then station from that it is started is the 
+answer becz we already saturated that is the answer even possible at the start doing totalGas and totalCost and then starts with station 0 and then goes till we have no -ve currentGas becz if we 
+found -ve in currentGas means it can not be that station from where we started and anything in b/w where we are currently so thats why i + 1 and then currentGas starting from 0 again.
 */
 
 public class GasStation {
