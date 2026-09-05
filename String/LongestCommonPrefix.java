@@ -1,6 +1,38 @@
-package Array;
+package String;
 
-// ["flower" , "flow" , "flight"] -> prefix = "fl"
+/*
+Why specifically != 0?
+Because we don't merely want prefix to exist somewhere in the string.
+We want prefix to be at the BEGINNING.
+
+For example:
+"xxflower".indexOf("flower")
+returns -> 2
+
+Because:
+x x f l o w e r
+0 1 2 3 4 5 6 7
+    ↑
+So:
+indexOf("flower") == 2
+It found it, but not at the beginning.
+
+For Longest Common Prefix, we need:
+indexOf(prefix) == 0
+Meaning:
+"prefix starts at index 0."
+
+
+Example 1:
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+Example 2:
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+*/
+
 public class LongestCommonPrefix {
         public String longestCommonPrefix(String[] strs) {
             if(strs.length == 0) {
