@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/LongestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Array\LargestNumber" />
     </key>
   </component>

@@ -27,6 +27,7 @@ This list contains k elements:
 (t, 1)
 (r, 1)
 ...
+
 We're sorting k elements.
 Java's object sorting uses a comparison sort, so: O(k log k)
 This is the expensive part.
