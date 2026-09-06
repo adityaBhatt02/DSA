@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="" />
+    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/RemoveOutermostParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/Parentheses/RemoveOutermostParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/SortCharactersByFrequency(Both Approaches)/SortCharactersByFrequency1.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/SortCharactersByFrequency(Both Approaches)/SortCharactersByFrequency1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/StringReverse1.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/Reverse/StringReverse1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/StringReverse2.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/Reverse/StringReverse2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/StringReverse3.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/Reverse/StringReverse3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +66,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Parentheses" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Reverse" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\SortCharactersByFrequency" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Array\LargestNumber" />
     </key>

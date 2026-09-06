@@ -5,11 +5,11 @@ Steps :
 String
   ↓
 1. Count frequencies
-  ↓
+          ↓
 2. Put HashMap entries into List
-  ↓
+          ↓
 3. Sort the List
-  ↓
+          ↓
 4. Build answer
 
 Time complexity of Approach 1 ->
