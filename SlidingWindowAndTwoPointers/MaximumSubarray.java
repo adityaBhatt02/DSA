@@ -13,7 +13,7 @@ public class MaximumSubarray {
 
                 if (currentSum < 0) {
                     currentSum = 0;
-                    l = r + 1;
+                    l = r + 1
                 }
                 r++;
             }

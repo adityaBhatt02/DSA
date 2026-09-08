@@ -40,15 +40,12 @@ public class CustomHashmapImplementationUsingArray {
     }
 }
 
-
 class Main {
     public static void main(String[] args) {
         CustomHashmapImplementationUsingArray chi = new CustomHashmapImplementationUsingArray();
         chi.put("Aditya Bhatt" , "Boy");
-        chi.put("Ishika Jindal" , "Girl");
-        chi.put("Nitin Dogra" , "Boy");
+        chi.put("Ayush Kumar" , "Boy");
 
         System.out.println(chi.get("Aditya Bhatt"));
-
     }
 }
