@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/MaximumAverageSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/MaximumSumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NumberOfSubAarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Substring/CountAllSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/Substring/CountSubstringsWithExactlyKDistinctCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/Hashmaps/CustomHashmapImplementationUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/Hashmaps/CustomHashmapImplementationUsingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/Hashmaps/Hashing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/Hashmaps/HashmapFinal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaximumSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
