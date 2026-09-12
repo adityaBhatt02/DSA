@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
-// Same ques referred as Maximum Depth Of Binary Tree
-public class HeightOfTheBinaryTree {
+// Same ques referred as Maximum Depth Of Binary Tree == Height of the binary tree
+public class MaxDepthOfTheBinaryTree {
     public int maxDepth(TreeNode root) {
         if(root == null) {
             return 0;
@@ -57,7 +57,8 @@ class minDepth{
         int leftDepth = minDepthWithBfs(root.left);
         int rightDepth = minDepthWithBfs(root.right);
 
-        if(leftDepth == 0 || rightDepth == 0) return leftDepth + rightDepth;
+        if(leftDepth == 0) return rightDepth + 1;
+        if(rightDepth == 0) return leftDepth + 1;
 
         return Math.min(leftDepth , rightDepth) + 1;
     }
