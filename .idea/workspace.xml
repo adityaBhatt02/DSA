@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/DFS/Depth &amp; Height depth/MaxDepthOfTheBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/DFS/Depth &amp; Height depth/MaxDepthOfTheBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/GraphAdjList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

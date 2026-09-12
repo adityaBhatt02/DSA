@@ -19,4 +19,13 @@ public class GraphAdjList {
         adjList.get(source).remove((Integer) destination);
         adjList.get(destination).remove((Integer) source);
     }
+
+    public void removeVertex(int vertex) {
+        adjList.remove(vertex);
+
+        // Remove edges pointing to the removed vertex
+        for(List<Integer> neighbors : adjList.values()) {
+            neighbors.remove((Integer) vertex);
+        }
+    }
 }
