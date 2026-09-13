@@ -1,9 +1,15 @@
 public class GraphAdjList {
     private Map<Integer, List<Integer>> adjList;
 
-    // for dfs iterative traversal
+    // traversal
     private Set<Integer> visited = new HashSet<>();
+
+    // for dfs iterative traversal
     private Stack<Integer> stack = new Stack<>();
+
+    // for bfs iterative traversal
+    private Queue<Integer> queue = new LinkedList<>();
+
 
     GraphAdjList() {
         this.adjList = new HashMap<>();
@@ -63,6 +69,22 @@ public class GraphAdjList {
 
         for(int neighbor : adjList.getOrDefault(vertex, Collections.emptyList())) {
             if(!visisted.contains(neighbor)) dfsRecursive(neighbor, visisted);
+        }
+    }
+
+    public void bfs(int vertex) {
+        visited.add(vertex);
+        queue.add(vertex);
+
+        while(!queue.isEmpty()) {
+            int currentVertex = queue.poll();
+
+            for(int neighbor : adjList.getOrDefault(currentVertex, Collections.emptyList())) {
+                if(!visited.contains(neighbor)) {
+                    queue.add(neighbor);
+                    visited.add(neighbor);
+                }
+            }
         }
     }
 }
