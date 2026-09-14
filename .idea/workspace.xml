@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Graphs/GridDFS/NumberOfEnclave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/MaxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/GridDFS/MaxAreaOfIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/GridDFS/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/SurroundedRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/GridDFS/SurroundedRegion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +65,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\GridDFS" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\FloodFill" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\DFS\Depth &amp; Height depth" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Parentheses" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Reverse" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\SortCharactersByFrequency" />
     </key>
   </component>
   <component name="SharedIndexes">
