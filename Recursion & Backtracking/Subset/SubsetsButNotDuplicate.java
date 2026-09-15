@@ -18,13 +18,18 @@ but if we sort then it will be [1,2,2] then piche waale se check krenge if its e
 public class SubsetsButNotDuplicate {
         public List<List<Integer>> subsetsWithDup(int[] nums) {
             List<List<Integer>> result = new ArrayList<>();
-            Arrays.sort(nums);                // sort kra becz duplicates ke liye kaam krta hae
+            Arrays.sort(nums);                // sort kra becz we are checking current index with previous index so sort helps with duplicate for that 
             subset(0 , nums , new ArrayList<>() , result);
             return result;
         }
 
         private void subset(int index , int[] nums , List<Integer> current , List<List<Integer>> result) {
             result.add(new ArrayList<>(current));
+
+            /* 
+            we can also do ->   if(!result.contains(current)) result.add(new ArrayList<>(current));           -> but it is inefficient because every contains() scans the existing subsets.
+            So you're doing duplicate detection after generating duplicates, which defeats the point of the problem.
+            */
 
             for(int i = index ; i < nums.length ; i++) {
 
