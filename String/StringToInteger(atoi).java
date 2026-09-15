@@ -63,7 +63,20 @@ public class StringToInteger(atoi) {
         while(i < s.length() && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
             int digit = s.charAt(i) - '0';
 
-            if(result > (Integer.MAX_VALUE - digit) / 10) {                     // before multiply by 10 and adding the digit we are doing its reverse with Integer.MAX_VALUE to check first that the result will overflow int or not
+            /*
+            We want:  result * 10 + digit <= Integer.MAX_VALUE
+            Now do algebra.
+            Start:
+            result * 10 + digit <= Integer.MAX_VALUE
+            result * 10 <= Integer.MAX_VALUE - digit
+            result <= (Integer.MAX_VALUE - digit) / 10
+            
+            Therefore, overflow happens when:
+            result > (Integer.MAX_VALUE - digit) / 10
+
+            so, its just checking first "If I multiply this result by 10 and add digit, I'll go beyond MAX or not."
+            */
+            if(result > (Integer.MAX_VALUE - digit) / 10) {                    
                 return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
 
