@@ -14,26 +14,23 @@ an element can be used multiple times. like 2 is used here.
  */
 
 public class CombinationSum {
-        public List<List<Integer>> combinationSum(int[] candidates, int target) {
-            List<List<Integer>> result = new ArrayList<>();
-            combinations(0 , target , new ArrayList<>() , result , candidates);
-            return result;
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(0, candidates, new ArrayList<>(), result, target);
+        return result;
+    }
+
+    private void backtrack(int index, int[] candidates, List<Integer> currentList, List<List<Integer>> result, int target) {
+        if(target < 0) return;
+        if(target == 0) {
+            result.add(new ArrayList<>(currentList));
+            return;
+        }      
+
+        for(int i = index; i < candidates.length; i++) {
+            currentList.add(candidates[i]);
+            backtrack(i, candidates, currentList, result, target - candidates[i]);
+            currentList.removeLast();
         }
-
-        public void combinations(int index , int target , List<Integer> current , List<List<Integer>> result , int[] nums) {
-            if(target == 0) {
-                result.add(new ArrayList<>(current));
-                return;
-            }
-
-            if(index >= nums.length || target < 0) return;
-
-            // pick ->
-            current.add(nums[index]);
-            combinations(index , target - nums[index] , current , result , nums);
-
-            // not pick ->
-            current.removeLast();
-            combinations(index + 1 , target , current , result , nums);
-        }
+    }
 }
