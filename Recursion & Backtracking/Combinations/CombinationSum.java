@@ -29,7 +29,7 @@ public class CombinationSum {
 
         for(int i = index; i < candidates.length; i++) {
             currentList.add(candidates[i]);
-            backtrack(i, candidates, currentList, result, target - candidates[i]);
+            backtrack(i, candidates, currentList, result, target - candidates[i]);                                            
             currentList.removeLast();
         }
     }
