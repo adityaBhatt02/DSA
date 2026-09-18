@@ -1,42 +1,40 @@
-package StackAndQueue;
+/*
+The cleanest approach is to use:
 
-import java.util.Stack;
+inStack → new elements go here
+outStack → elements come out from here
+ */
 
 public class QueueUsingStack {
+    Stack<Integer> inStack = new Stack<>();
+    Stack<Integer> outStack = new Stack<>();
 
-        private Stack<Integer> stack1; // Main stack for pushing elements
-        private Stack<Integer> stack2; // Helper stack for reversing order
+    public MyQueue() {
 
-        public QueueUsingStack() {
-            stack1 = new Stack<>();
-            stack2 = new Stack<>();
+    }
+
+    public void push(int x) {
+        inStack.push(x);
+    }
+
+    public int pop() {
+        moveIfNeeded();
+        return outStack.pop();
+    }
+
+    public int peek() {
+        moveIfNeeded();
+        return outStack.peek();
+    }
+
+    public boolean empty() {
+        moveIfNeeded();
+        return outStack.isEmpty();
+    }
+
+    private void moveIfNeeded() {
+        if(outStack.isEmpty()) {
+            while(!inStack.isEmpty()) outStack.push(inStack.pop());
         }
-
-        // Push element to the back of the queue
-        public void push(int x) {
-            stack1.push(x);
-        }
-
-        // Removes the element from the front of the queue
-        public int pop() {
-            if (stack2.isEmpty()) {
-                while (!stack1.isEmpty()) {
-                    stack2.push(stack1.pop()); // Reverse order of stack1 into stack2
-                }
-            }
-            return stack2.pop(); // Pop from stack2 (front of queue)
-        }
-
-        public int peek() {
-            if (stack2.isEmpty()) {
-                while (!stack1.isEmpty()) {
-                    stack2.push(stack1.pop());
-                }
-            }
-            return stack2.peek();
-        }
-
-        public boolean empty() {
-            return stack1.isEmpty() && stack2.isEmpty();
-        }
+    }
 }
