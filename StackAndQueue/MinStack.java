@@ -4,26 +4,35 @@ import java.util.Stack;
 
 
 // 1 normal stack and 1 min stack(min stack is used to store least values and the top of the min stack is the lowest element till now).
-class MinStack {
-    private final Stack<Integer> stack;
-    private final Stack<Integer> minStack;
+public class MinStack {
+    private int minVal = Integer.MAX_VALUE;
+
+    Stack<Integer> stack = new Stack<>();
+    Stack<Integer> minStack = new Stack<>();
 
     public MinStack() {
-        stack = new Stack<>();
-        minStack = new Stack<>();
     }
 
-    public void push(int val) {
-        stack.push(val);
-        if (minStack.isEmpty() || val <= minStack.peek()) {
-            minStack.push(val);
+    public void push(int value) {
+        if (value <= minVal) {     // duplicate handling, for eg if 2 is added multiple times in our normal stack but if it is not checking for = then in minstack multiple 2's will not be there 
+            minVal = value;
+            minStack.push(minVal);
         }
+
+        stack.push(value);
     }
 
     public void pop() {
-        int removed = stack.pop();
-        if (removed == minStack.peek()) {
+        int value = stack.pop();
+
+        if (value == minVal) {
             minStack.pop();
+
+            if (!minStack.isEmpty()) {
+                minVal = minStack.peek();
+            } else {
+                minVal = Integer.MAX_VALUE;
+            }
         }
     }
 
