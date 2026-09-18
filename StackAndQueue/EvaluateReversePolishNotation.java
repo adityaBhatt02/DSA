@@ -19,20 +19,20 @@ public class EvaluateReversePolishNotation {
         Stack<Integer> stack = new Stack<>();
 
         for(String token : tokens) {
-            if(token.equals("+") || token.equals("-") || token.equals("*") || token.equals("/")) {
-                int result = 0;
-                int b = stack.pop();
-                int a = stack.pop();
+            if(token.equals("+") || token.equals("-")  || token.equals("*")  || token.equals("/")) {
+                int num1 = stack.pop();
+                int num2 = stack.pop();
 
-                switch (token) {
-                    case "+" : result = a + b; break;
-                    case "-" : result = a - b; break;
-                    case "*" : result = a * b; break;
-                    case "/" : result = a / b; break;
-                }
-                stack.push(result);
-            }else {
-                stack.push(Integer.parseInt(token));
+                if(token.equals("+")) stack.add(num2 + num1);
+                
+                if(token.equals("-")) stack.add(num2 - num1);
+                    
+                if(token.equals("*")) stack.add(num2 * num1);
+                    
+                if(token.equals("/")) stack.add(num2 / num1);    
+
+            } else {
+                stack.add(Integer.parseInt(token));
             }
         }
         return stack.pop();
