@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/StackAndQueue/StackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackAndQueue/MontonicStack/NextGreaterElement1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StackAndQueue/QueueUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/StackAndQueue/QueueUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackAndQueue/DailyTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/StackAndQueue/MontonicStack/DailyTemperature.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +63,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\StackAndQueue\MontonicStack" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\GridDFS" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\FloodFill" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\DFS\Depth &amp; Height depth" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Parentheses" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Reverse" />
     </key>
   </component>
   <component name="SharedIndexes">
