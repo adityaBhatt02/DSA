@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Greedy/Intervals/Time&amp;Space_Complexity.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +62,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Greedy\Intervals" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\StackAndQueue\MontonicStack" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\GridDFS" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\FloodFill" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\DFS\Depth &amp; Height depth" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String\Parentheses" />
     </key>
   </component>
   <component name="SharedIndexes">

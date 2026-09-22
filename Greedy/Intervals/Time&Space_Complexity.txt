@@ -1,0 +1,192 @@
+The main rule is:
+If we have to sort intervals, sorting usually dominates the time complexity: O(n log n). After sorting, the actual scan is usually only O(n).
+
+1. Insert Interval ->
+Your problem: intervals are already sorted by start time
+So we do NOT need to sort.
+
+Your algorithm has 3 while loops:
+
+while (before) { ... }
+
+while (overlap) { ... }
+
+while (after) { ... }
+
+You might initially think:
+O(n) + O(n) + O(n) = O(3n)
+But that's just: O(n)
+
+Why?
+Because i only moves forward.
+
+For example:
+i = 0
+i = 1
+i = 2
+...
+i = n-1
+Once an interval is processed, you don't process it again.
+So even though there are three loops, collectively they visit each interval at most once.
+
+Time : O(n)
+
+Space ->
+
+Your code creates: List<int[]> result
+and the output itself can contain n intervals.
+
+So: O(n)
+for the result.
+
+
+2. Merge Intervals
+Your solution starts with:
+Arrays.sort(intervals, ...)
+
+So first:
+Sorting = O(n log n)
+
+Then:
+for (...)
+scans all intervals: O(n)
+
+Therefore:
+O(n log n) + O(n) --> O(n log n)
+
+Why doesn't the merge become O(n²)?
+Because you're not repeatedly searching through the array.
+
+
+Space -->
+
+Your: List<int[]> result
+can contain up to n intervals: O(n)
+Also, Java sorting of object arrays can require additional memory.
+
+So in normal interview discussion:
+Time:  O(n log n)
+Space: O(n)
+The output itself already requires O(n) in the worst case.
+
+3. Erase Overlap Intervals -->
+
+Your algorithm: Arrays.sort(...) first.
+So:
+Sorting = O(n log n)
+
+Then you scan:
+for (...)
+which is: O(n)
+
+Therefore:
+O(n log n)
+
+Why isn't the greedy comparison expensive?
+This part:
+
+currentEnd = Math.min(currentEnd, intervals[i][1]);
+is constant time: O(1)
+You're doing it once for each interval.
+
+Therefore: O(n)
+for the scan.
+
+Sorting still dominates: O(n log n)
+
+
+Space ->
+
+Your algorithm itself only needs:
+int count
+int currentEnd
+ignoring sorting implementation:
+
+O(1) auxiliary space
+But Java's sorting implementation may use additional memory.
+
+So you'll often see:
+Time: O(n log n)
+Auxiliary space: O(n) in Java due to sorting
+while conceptually the algorithm after sorting is O(1) extra space.
+
+4. Meeting Rooms / Can Attend Meetings
+You do: intervals.sort(...)
+
+so: O(n log n)
+
+Then:
+for (...)
+checks neighboring meetings: O(n)
+
+Therefore: O(n log n)
+
+
+Space -->
+No separate result structure.
+
+Conceptually:
+O(1) extra space
+excluding sorting implementation.
+
+With Java's sorting:
+O(n)
+may be used internally.
+
+The pattern across all your interval questions
+Problem	Sorting?	                        	Total Time	   Space
+Insert Interval	                             	    O(n)	    O(n)
+Merge Intervals	                             	 O(n log n)     O(n)
+Erase Overlap Intervals	                         O(n log n)	    O(1)
+Meeting Rooms		                             O(n log n)	    O(1)
+Meeting RoomsII                                  O(n log n)	    O(1)
+
+The most important thing to remember
+For interval questions, ask:
+Step 1
+Are the intervals already sorted?
+
+If yes:
+Usually O(n)
+like Insert Interval.
+
+If no:
+Sort first
+↓
+O(n log n)
+
+like:
+Merge Intervals
+Erase Overlap Intervals
+MeetingRooms
+MeetingRoomsII
+
+Step 2
+After sorting, ask:
+Am I just scanning once?
+
+If yes: O(n)
+
+So:
+O(n log n) + O(n)
+        ↓
+   O(n log n)
+One subtle complexity trick you should remember
+Don't say:
+
+3 loops = O(3n)
+or:
+2 loops = O(2n)
+Big-O ignores constants.
+
+More importantly, in your Insert Interval, the three loops are sequential and together process the intervals once:
+
+first loop → some intervals
+second loop → some intervals
+third loop → remaining intervals
+
+So total work is still: O(n)
+
+The interval pattern you've learned is actually very clean:
+Sort if necessary → linear scan → done
+That pattern will carry you through a lot of interval problems.
