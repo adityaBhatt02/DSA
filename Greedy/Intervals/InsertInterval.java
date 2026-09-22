@@ -69,3 +69,18 @@ public class InsertInterval {
         return result.toArray(new int[result.size()][]);
     }
 }
+
+/*
+List<Integer> result = new ArrayList<>();
+then each element is just an Integer.
+
+So ->  result.toArray(new Integer[result.size()]);
+gives: Integer[]
+
+
+List<int[]> result = new ArrayList<>();
+Each element is itself an int[].
+
+Therefore -> result.toArray(new int[result.size()][]);
+creates ->  int[][]
+*/
