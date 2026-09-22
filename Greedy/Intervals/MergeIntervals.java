@@ -5,13 +5,53 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
-approach is simple sort every interval by ascending order of their first element(0) then create a list of int[] then add a current array into that the current array is
-the first interval from the intervals array.
-Then loop through every interval and check if the first element of the current interval is smaller or equal to the current array(which is in list) if yes -> then compare
-the max of the second element of the current interval and the current array(in list) basically this is where merging is done.
-if no the first element of the current interval is greater than the current array's second element then the current array is the current interval and then add it to the
-list.
-then at last change the list to array.
+First sort by start time.
+
+Then:
+current = first interval
+result = [current]
+
+
+Now for every next interval:
+
+1. Overlap?
+interval[0] <= current[1]
+Yes → merge:
+current[1] = max(current[1], interval[1])
+
+Because the current merged interval expands.
+
+
+2. No overlap?
+interval[0] > current[1]
+
+Then:
+current = interval
+result.add(current)
+
+You've finished the previous group and started a new one.
+
+One-line mental model
+"Does the next interval start before my current merged interval ends?"
+
+Yes → expand current.
+No → start a new interval.
+
+So:
+[1,3] [2,6] [5,8] [10,12]
+
+        overlap → merge
+               ↓
+         [1,8] [10,12]
+And remember the reference detail you just understood:
+
+current[1] = ...
+modifies the same array already inside result.
+
+While: current = interval;
+makes current point to the new interval, then: 
+result.add(current);
+adds that new reference.
  */
 public class MergeIntervals {
     public static void main(String[] args) {
