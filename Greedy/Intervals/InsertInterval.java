@@ -3,12 +3,31 @@ package Greedy.Intervals;
 /*
 so in this ques we are given intervals, and they are already sorted, and we are also given a new interval, and we are asked to insert that interval into other intervals
 without making any overlapping b/w them.
-so our approach is that :
-1)before any overlapping begins insert the left intervals to the list of arrays(condition for checking this is that the interval on left should have
-end smaller than the start of the newInterval
-2)then from where the overlapping start(condition for that is newInterval's end should be greater or equal to the start of the intervals in intervals array ..... and then
-just take the "min" as newInterval's start and "max" as newInterval's end {to make the range for the new interval} and then add it to the result list.
-3)then just add the remaining intervals from the right.
+so our approach is that : BEFORE → OVERLAP → AFTER
+
+        BEFORE          OVERLAP              AFTER
+
+     [1,3] [2,4]      [6,8] [7,10]          [15,18]
+                        ↑
+                    new = [5,7]
+
+Actually:
+[1,3]     → BEFORE
+[2,4]     → BEFORE
+[6,8]     → OVERLAP
+[7,10]    → OVERLAP
+[15,18]   → AFTER
+
+
+The 3 conditions to memorize -->
+Before: intervals[i][1] < newInterval[0]                  "Does this interval finish before the new interval even starts?"
+End < start → copy it.
+
+Overlap: intervals[i][0] <= newInterval[1]                "Does this interval start before the current merged newInterval has finished?"
+Start <= end → merge it.
+
+After: intervals[i][0] > newInterval[1]                   "add everything remaining"
+Start > end → done merging → copy rest.
 */
 
 import java.util.ArrayList;
