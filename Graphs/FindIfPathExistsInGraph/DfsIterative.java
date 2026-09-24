@@ -1,29 +1,42 @@
-class DfsIterative {
+public class DfsIterative {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
-        // Create Adjacency List
-        Map<Integer, List<Integer>> graph = new HashMap<>();
-        for(int i = 0; i < n; i++) graph.put(i, new ArrayList<>());
+        Map<Integer, List<Integer>> adjList = new HashMap<>();
 
-        // Add edges(undirected graph)
+        // Creates lists for each vertex
+        for(int i = 0; i < n; i++) adjList.put(i, new ArrayList<>());
+
+        // Creates the adjacency list
         for(int[] edge : edges) {
-            graph.get(edge[0]).add(edge[1]);
-            graph.get(edge[1]).add(edge[0]);
+            int vertex1 = edge[0];
+            int vertex2 = edge[1];
+
+            adjList.get(vertex1).add(vertex2);
+            adjList.get(vertex2).add(vertex1);
         }
 
-        Set<Integer> visited = new HashSet<>();
+        boolean[] visited = new boolean[n];
+
+        return dfs(source, destination, adjList, visited);
+    }
+
+    private boolean dfs(int source, int destination, Map<Integer, List<Integer>> adjList, boolean[] visited) {
+        if(source == destination) return true;
+
         Stack<Integer> stack = new Stack<>();
 
-        stack.push(source);
+        stack.add(source);
+        visited[source] = true;
+
         while(!stack.isEmpty()) {
-            int currentVertex = stack.pop();
+            int currentNode = stack.pop();
 
-            if(currentVertex == destination) return true;
+            if(currentNode == destination) return true;
 
-            if(visited.contains(currentVertex)) continue;
-
-            visited.add(currentVertex);
-            for(int neighbor : graph.get(currentVertex)) {
-                if(!visited.contains(neighbor)) stack.push(neighbor);
+            for(int neighbor : adjList.get(currentNode)) {
+                if(!visited[neighbor]) {
+                    stack.add(neighbor);
+                    visited[neighbor] = true;
+                }
             }
         }
         return false;
