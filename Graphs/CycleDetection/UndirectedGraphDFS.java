@@ -36,7 +36,6 @@ public class UndirectedGraphDFS {
 
         boolean[] visited = new boolean[V];
 
-
         // For every component(graph may have multiple components)
         for(int i = 0; i < V; i++) {
             if(!visited[i]) {
@@ -44,7 +43,6 @@ public class UndirectedGraphDFS {
             }
 
         }
-
         return false;
     }
 
@@ -58,7 +56,6 @@ public class UndirectedGraphDFS {
 
             if(dfs(neighbor, node, adjList, visited)) return true;
         }
-
         return false;
     }
 }

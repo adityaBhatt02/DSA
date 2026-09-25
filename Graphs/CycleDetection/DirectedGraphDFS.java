@@ -49,7 +49,6 @@ public class DirectedGraphDFS {
                 if(dfs(i, adjList, visited, pathVisited)) return true;
             }
         }
-
         return false;
     }
 
