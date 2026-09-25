@@ -51,7 +51,7 @@ public class SearchInRotatedSortedArray {
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
-            if (end > mid && arr[mid] > arr[mid + 1]) {
+            if (arr[mid] > arr[mid + 1]) {
                 return mid;
             }
             if (start < mid && arr[mid - 1] > arr[mid]) {
