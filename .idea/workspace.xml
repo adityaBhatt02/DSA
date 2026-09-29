@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/SingleElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/FindMedianOfTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/BFS/MaximumWidthOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/CountOccurrencesInSortedArray" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/CountOccurrencesInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/LastOccurrenceInASortedArray" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/LastOccurrenceInASortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/Search Insert Position" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SearchIn2DMatrix" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/SearchIn2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SearchIn2DMatrixII" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/SearchIn2DMatrixII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/FindNthRootOfANumber" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/FindNthRootOfANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/MountainArray/ValidMountainArray" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/MountainArray/ValidMountainArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
