@@ -16,12 +16,12 @@ public class PermutationInString {
     public boolean checkInclusion(String s1, String s2) {
         if(s1.length() > s2.length()) return false;
 
-        char[] freqS1 = new char[26];
+        int[] freqS1 = new int[26];
         for(int i = 0; i < s1.length(); i++) freqS1[s1.charAt(i) - 'a']++;
 
         int left = 0, right = 0, k = s1.length();
 
-        char[] freqS2 = new char[26];
+        int[] freqS2 = new int[26];
 
         while(right < s2.length()) {
             char currentChar = s2.charAt(right);

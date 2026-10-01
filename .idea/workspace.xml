@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/LongestSubarrayOf1sAfterDeletingOneElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NeedCharacterFrequencies/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NeedCharacterFrequencies/MinimumWindowSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaxConsecutiveOnes/MaxConsecutiveOnes3.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaxConsecutiveOnes/MaxConsecutiveOnes3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/FindAllAnagramsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NeedCharacterFrequencies/FindAllAnagramsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NeedCharacterFrequencies/PermutationInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/LongestRepeatingCharacterReplacement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaxConsecutiveOnes/LongestSubarrayOf1sAfterDeletingOneElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/VariableSizeSlidingWindow/ LongestValidWindow/MaxConsecutiveOnes/LongestSubarrayOf1sAfterDeletingOneElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaxConsecutiveOnes/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/VariableSizeSlidingWindow/ LongestValidWindow/MaxConsecutiveOnes/MaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/MaxConsecutiveOnes/MaxConsecutiveOnes3.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/VariableSizeSlidingWindow/ LongestValidWindow/MaxConsecutiveOnes/MaxConsecutiveOnes3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/VariableSizeSlidingWindow/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/VariableSizeSlidingWindow/SmallestValidWindow/MinimumSizeSubarraySum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +70,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\FixedSizeSlidingWindow\NeedCharacterFrequencies" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\VariableSizeSlidingWindow\ LongestValidWindow" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\VariableSizeSlidingWindow\SmallestValidWindow" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\MaxConsecutiveOnes" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\VariableSizeSlidingWindow" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Greedy\Intervals" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\StackAndQueue\MontonicStack" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\GridDFS" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\FloodFill" />
     </key>
   </component>
   <component name="SharedIndexes">
