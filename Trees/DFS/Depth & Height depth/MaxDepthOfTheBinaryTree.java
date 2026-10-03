@@ -8,11 +8,9 @@ import java.util.Queue;
 
 /* Same ques referred as Maximum Depth Of Binary Tree == Height of the binary tree.
 The +1 counts the current node. So your height function returns number of nodes on the longest downward path.
-
  */
 
-
-        public class MaxDepthOfTheBinaryTree {
+public class MaxDepthOfTheBinaryTree {
     public int maxDepth(TreeNode root) {
         if(root == null) {
             return 0;

@@ -2,12 +2,11 @@ package BinarySearchQuestions;
 
 public class KokoEatingBananas {
         public int minEatingSpeed(int[] piles, int h) {
-            int minSpeed = 1;
+            int minSpeed = 1;                  // start
 
-            int maxSpeed = 0;
-            for(int pile : piles) {
-                maxSpeed = Math.max(maxSpeed , pile);          // max banana in a pile is the maxSpeed.
-            }
+            int maxSpeed = 0;                  // end
+            for(int pile : piles) maxSpeed = Math.max(maxSpeed , pile);          // max banana in a pile is the maxSpeed.
+
 
             while(minSpeed < maxSpeed) {
                 int mid = minSpeed + (maxSpeed - minSpeed)/2;

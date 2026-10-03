@@ -32,15 +32,11 @@ public class WordSearch {
 
     private boolean dfs(int pos, int row, int col, char[][] board, String word) {
       
-         // Whole word has been matched
-        if (pos == word.length()) {
-            return true;
-        }
+         // Whole word has been matched  ( this condition is above the outside board condition just becz of one test case where there is only 1 character in the board and only 1 character(same) in the Word )
+        if (pos == word.length()) return true;
 
         // Outside the board
-        if (row < 0 || row >= rows || col < 0 || col >= cols) {
-            return false;
-        }
+        if (row < 0 || row >= rows || col < 0 || col >= cols) return false;
 
         // Current cell doesn't match
         if (board[row][col] != word.charAt(pos)) {
