@@ -46,20 +46,20 @@ public class CapacityToShipPackagesWithinDdays {
         int minCapacity = 0, maxCapacity = 0;
 
         for (int weight : weights) {
-            minCapacity = Math.max(minCapacity, weight);
-            maxCapacity += weight;
+            minCapacity = Math.max(minCapacity, weight);                    // min capacity is the max weight in weights array (min capacity becz -> so that ship can sail every package)
+            maxCapacity += weight;                                          // max capacity is sum of all the weights becz -> when a ship can carry the maxWeight the days it take will be only 1 ofco.
         }
 
-        while(minCapacity < maxCapacity) {
-            int mid = minCapacity + (maxCapacity - minCapacity)/2;
+        while(minCapacity < maxCapacity) {                                 // not <= becz at last when minCapacity == maxCapacity thats the answer
+            int mid = minCapacity + (maxCapacity - minCapacity)/2;         // binary searching the capacities
 
-            if(canSail(weights, days, mid)) {
+            if(canSail(weights, days, mid)) {                              // if this capacity can sail all package in less than or equal to the total days given thats the potential answer
                 maxCapacity = mid;
             } else {
                 minCapacity = mid + 1;
             }
         }
-        return minCapacity;
+        return minCapacity;                                               // can return anything minCapacity or maxCapacity
     }
 
     private boolean canSail(int[] weights, int days, int capacity) {
@@ -67,7 +67,7 @@ public class CapacityToShipPackagesWithinDdays {
         int currentWeight = weights[0];
 
         for (int i = 1; i < weights.length; i++) {
-            if (currentWeight + weights[i] <= capacity) {
+            if (currentWeight + weights[i] <= capacity) {       // first checking that if we add the weight in the currentWeieght will it not be greater than the actual capacity of the ship or not
                 currentWeight += weights[i];
             } else {                                      // start a new day
                 d++;

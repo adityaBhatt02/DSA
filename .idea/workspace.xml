@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/FirstUniqueElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/GuessNumberHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/LowerBound/FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/LowerBound/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/CapacityToShipPackagesWithinDdays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/FirstUniqueCharacterInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/N-ary trees/LevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/N-ary trees/PostOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/N-ary trees/PreOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/FashionableArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/FreqCountOfEachCharInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/FreqCountOfEachCharInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/LongestPalindromicSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/KokoEatingBananas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SearchInsertPosition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion &amp; Backtracking/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion &amp; Backtracking/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/DFS/Depth &amp; Height depth/MaxDepthOfTheBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/DFS/Depth &amp; Height depth/MaxDepthOfTheBinaryTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
