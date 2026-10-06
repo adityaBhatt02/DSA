@@ -7,7 +7,6 @@ public class KokoEatingBananas {
             int maxSpeed = 0;                  // end
             for(int pile : piles) maxSpeed = Math.max(maxSpeed , pile);          // max banana in a pile is the maxSpeed.
 
-
             while(minSpeed < maxSpeed) {
                 int mid = minSpeed + (maxSpeed - minSpeed)/2;
 

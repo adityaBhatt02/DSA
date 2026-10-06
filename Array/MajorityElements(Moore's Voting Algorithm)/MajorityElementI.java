@@ -1,6 +1,7 @@
 /*
 Given an array nums of size n, return the majority element.
-The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always
+exists in the array.
 
 Example 1:
 Input: nums = [3,2,3]
@@ -12,7 +13,9 @@ Output: 2
 
 
 1. Brute force — O(n²), O(1)
-“First, I can check every element and count how many times it occurs using another loop. If its count is greater than n/2, that's the majority element.”
+“First, I can check every element and count how many times it occurs using another loop. If its count is greater than n/2,
+that's the majority element.”
+
 for (int i = 0; i < nums.length; i++) {
     int count = 0;
 
@@ -41,8 +44,8 @@ for (int num : nums) {
     }
 }
 
-3. Moore's voting algo where candidate is the potential element i am taking as the majority element and count is like votes same elements vote that candidate( i.e, count++) and different 
-element decrease the vote ( i.e, count--)
+3. Moore's voting algo where candidate is the potential element i am taking as the majority element and count is like votes
+same elements vote that candidate( i.e, count++) and different element decrease the vote ( i.e, count--)
 And most imp thing is that majority element is majority becz no one can cancel it fully becz it apprears more than n/2 times.
 */
 

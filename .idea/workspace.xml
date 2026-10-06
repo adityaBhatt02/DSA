@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="" />
+    <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/Heaters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/MinimumNumberOfDaysToMakeMBouquets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/SplitArrayLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometry/KClosestPointsToOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometry/MinimumTimeVisitingAllPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geometry/ValidBoomerang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion &amp; Backtracking/Permutations/PermuationII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/ConstructBinaryTree/ConstructBinaryTreeFromPostorderAndInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ContainsDuplicate/ContainsDuplicate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ContainsDuplicate/ContainsDuplicate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/MajorityElements(Moore's Voting Algorithm)/MajorityElementI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/MajorityElements(Moore's Voting Algorithm)/MajorityElementI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/MajorityElements(Moore's Voting Algorithm)/MajorityElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/MajorityElements(Moore's Voting Algorithm)/MajorityElementII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/KokoEatingBananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SqrtRootUsingBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/SqrtRootUsingBS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/CycleDetection/DirectedGraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/CycleDetection/DirectedGraphDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Greedy/AssignCookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/AssignCookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListQuestions/FindTheDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListQuestions/FindTheDuplicateNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListQuestions/MergeTwoSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListQuestions/MergeList/MergeTwoSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListQuestions/MergekSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListQuestions/MergeList/MergekSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListQuestions/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListQuestions/OddEvenLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListQuestions/ReverseNodeInKGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListQuestions/ReverseNodeInKGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix/RotateImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion &amp; Backtracking/Premutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion &amp; Backtracking/Permutations/Premutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/LargestOddNumberInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/LargestOddNumberInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/SkipAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/SkipAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/ConstructBinaryTreeFromPostorderAndInorderTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/ConstructBinaryTree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/DFS/ConvertSortedArrayToBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/ConstructBinaryTree/ConvertSortedArrayToBinarySearchTree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,10 +91,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\BinarySearchQuestions\OnAnswers" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\LinkedListQuestions\MergeList" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Recursion &amp; Backtracking\Permutations" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\ConstructBinaryTree" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\BinarySearchQuestions\LowerBound" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\String" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\VariableSizeSlidingWindow\SmallestValidWindow" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\SlidingWindowAndTwoPointers\FixedSizeSlidingWindow\NeedCharacterFrequencies" />
     </key>
   </component>
   <component name="SharedIndexes">

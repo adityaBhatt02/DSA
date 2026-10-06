@@ -20,9 +20,7 @@ it stays true.
 
 pathVisited -> "Is this node STILL on the path I'm currently walking?"
 When you enter a node: pathVisited[node] = true;
-
 When you finish exploring that node and backtrack: pathVisited[node] = false;
-
  */
 
 public class DirectedGraphDFS {
@@ -58,8 +56,12 @@ public class DirectedGraphDFS {
 
         for(int neighbor : adjList.get(node)) {
             if(!visited[neighbor]) {
-                if(dfs(neighbor, adjList, visited, pathVisited)) return true;
-            } else if(pathVisited[neighbor]) return true;       // if that neighbor is visited but if it is visited in this particular dfs path then thats a cycle
+                if(dfs(neighbor, adjList, visited, pathVisited)) {
+                    return true;
+                }
+            } else if(pathVisited[neighbor]) {
+                return true;       // if that neighbor is visited but if it is visited in this particular dfs path then thats a cycle
+            }
         }
 
         pathVisited[node] = false;

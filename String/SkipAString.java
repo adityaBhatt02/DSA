@@ -6,7 +6,7 @@ public class SkipAString {
             return "";
         }
 
-        if (str.length() >= strToRemove.length() &&
+        if(str.length() >= strToRemove.length() &&
                 str.substring(0, strToRemove.length()).equalsIgnoreCase(strToRemove)) {
             return skip(str.substring(strToRemove.length()), strToRemove);
         } else {

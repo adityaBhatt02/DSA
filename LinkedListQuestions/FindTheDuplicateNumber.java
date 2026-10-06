@@ -13,14 +13,12 @@ Given:
 
 nums = [1, 3, 4, 2, 2]
 index   0  1  2  3  4
-Instead of moving normally with:
+Instead of moving normally with: i++;
 
-i++;
 we move using:
-
 i = nums[i];
-So we get:
 
+So we get:
 0 → 1 → 3 → 2 → 4 → 2 → 4 → 2...
 This creates a cycle.
 
