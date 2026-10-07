@@ -39,7 +39,6 @@ Explanation:
 4th day: 1, 1
  */
 
-
 // O(n logn) time complexity becz we are binary searching the capacities(so logn) and for each capacity iterating the array 'n' times(so, nlogn)
 public class CapacityToShipPackagesWithinDdays {
     public int shipWithinDays(int[] weights, int days) {
