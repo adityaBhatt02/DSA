@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/StackAndQueue/MontonicStack/LargestRectangleInHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrefixSum + HashMap (Subarray Problems)/ContiguousArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrefixSum + HashMap (Subarray Problems)/SubarraySumEqualsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/RepeatedDNASequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two Pointers/BoatsToSavePeople.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two Pointers/TwoSumInputArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two Pointers/ValidPalindromeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two Pointers/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Sum/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two Pointers/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Sum/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two Pointers/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Sum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrefixSum + HashMap (Subarray Problems)/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two Pointers/TrappingRainWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Two Pointers" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\PrefixSum + HashMap (Subarray Problems)" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\BinarySearchQuestions\OnAnswers" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\LinkedListQuestions\MergeList" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Recursion &amp; Backtracking\Permutations" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\ConstructBinaryTree" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\BinarySearchQuestions\LowerBound" />
     </key>
   </component>
   <component name="SharedIndexes">
