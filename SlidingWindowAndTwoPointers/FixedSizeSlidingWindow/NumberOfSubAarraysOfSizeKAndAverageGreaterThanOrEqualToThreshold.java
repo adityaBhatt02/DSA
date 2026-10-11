@@ -1,5 +1,6 @@
 /*
-Given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average greater than or equal to threshold.
+Given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average
+greater than or equal to threshold.
 
 Example 1:
 Input: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4

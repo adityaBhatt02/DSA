@@ -1,4 +1,3 @@
-
 class FloodFillBFS {
     private int rows, cols;
 

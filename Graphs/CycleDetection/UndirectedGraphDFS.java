@@ -41,7 +41,6 @@ public class UndirectedGraphDFS {
             if(!visited[i]) {
                 if(dfs(i, -1, adjList, visited)) return true;           // cycle in a component, i.e, cycle in the graph
             }
-
         }
         return false;
     }

@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Two Pointers/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two Pointers/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Two Pointers/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two Pointers/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/CycleDetection/UndirectedGraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/CycleDetection/UndirectedGraphDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/FloodFill Algorithm/FloodFillBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/FloodFill Algorithm/FloodFillBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/FloodFill Algorithm/FloodFillDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/FloodFill Algorithm/FloodFillDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/GridDFS/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/GridDFS/NumberOfIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/MaximumSumOfDistinctSubarraysWithLengthK.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/MaximumSumOfDistinctSubarraysWithLengthK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NumberOfSubAarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowAndTwoPointers/FixedSizeSlidingWindow/NumberOfSubAarraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

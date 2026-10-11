@@ -51,3 +51,57 @@ public class FloodFill {
         dfs(row, col - 1, color, currentColor, visited, image); // right
     }
 }
+
+
+/*
+1. What happens when you call DFS?
+Suppose you have this image, where every cell has color 1:
+A 3 × 3 image — all cells have the original color.
+
+Your code calls:
+dfs(sr, sc, image, color, originalColor);
+
+Java starts executing that method. When it reaches:
+dfs(row - 1, col, image, color, originalColor);
+
+it calls dfs() again before the previous call has finished.
+
+The first call must remember where it was so it can continue after the second call returns.
+That's where the recursion stack comes in!
+
+2. Think of it like a stack of unfinished tasks
+Illustrative call stack
+dfs(0, 0)
+
+Waiting for its recursive call
+dfs(1, 0)
+
+Waiting for its recursive call
+dfs(2, 0)
+Active
+
+Conceptual example: each unfinished method call needs its own stack frame.
+
+Java stores information for each unfinished call, such as its parameters and where execution should resume.
+When a call finishes, its stack frame is removed. Then the previous call continues.
+You don't write code to manage these frames. The Java runtime does it for you.
+
+3. So why is space complexity
+Imagine the worst case: all cells have the same original color.
+Your DFS could end up with as many as m×n recursive calls active along a traversal before they start returning.
+If the image has 100×100=10,000 cells, the recursion stack could potentially grow proportionally to the number of cells.
+
+Therefore:
+
+Time complexity:
+O(m×n), because each cell is processed at most once.
+
+Auxiliary space:
+O(m×n), because of the recursion stack in the worst case.
+
+One important distinction: your image itself is modified in place, so we don't count that existing image as extra space.
+We count the stack space created by the recursive calls.
+
+Remember this DSA rule: Whenever you use recursion, consider the maximum number of recursive calls that can be active
+simultaneously. That contributes to auxiliary space complexity.
+ */
