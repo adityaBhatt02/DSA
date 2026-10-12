@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Graphs/Topological Sorting/TopologicalSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/CycleDetection/DirectedGraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/CycleDetection/DirectedGraphDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/CycleDetection/UndirectedGraphBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/CycleDetection/UndirectedGraphBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/CycleDetection/UndirectedGraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/CycleDetection/UndirectedGraphDFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/FindIfPathExistsInGraph/BfsIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/FindIfPathExistsInGraph/BfsIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/FindIfPathExistsInGraph/DfsIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/FindIfPathExistsInGraph/DfsIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/GraphAdjList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +68,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\Sum" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Two Pointers" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\PrefixSum + HashMap (Subarray Problems)" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\BinarySearchQuestions\OnAnswers" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\LinkedListQuestions\MergeList" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Recursion &amp; Backtracking\Permutations" />
     </key>
   </component>
   <component name="SharedIndexes">

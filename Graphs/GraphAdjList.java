@@ -34,8 +34,8 @@ public class GraphAdjList {
         adjList.remove(vertex);
 
         // Remove edges pointing to the removed vertex
-        for(List<Integer> neighbors : adjList.values()) {
-            neighbors.remove((Integer) vertex);
+        for(List<Integer> neighbour : adjList.values()) {
+            neighbour.remove((Integer) vertex);
         }
     }
 
@@ -49,8 +49,8 @@ public class GraphAdjList {
             int currentVertex = stack.pop();
             visited.add(currentVertex);
 
-            for(int neighbor : adjList.getOrDefault(currentVertex, Collections.emptyList())) {
-                if(!visited.contains(neighbor)) stack.push(neighbor);
+            for(int neighbour : adjList.getOrDefault(currentVertex, Collections.emptyList())) {
+                if(!visited.contains(neighbour)) stack.push(neighbour);
             }
         }
     }
@@ -67,8 +67,8 @@ public class GraphAdjList {
         visited.add(vertex);
         System.out.print(vertex + " ");
 
-        for(int neighbor : adjList.getOrDefault(vertex, Collections.emptyList())) {
-            if(!visisted.contains(neighbor)) dfsRecursive(neighbor, visisted);
+        for(int neighbour : adjList.getOrDefault(vertex, Collections.emptyList())) {
+            if(!visisted.contains(neighbour)) dfsRecursive(neighbour, visisted);
         }
     }
 
@@ -79,10 +79,10 @@ public class GraphAdjList {
         while(!queue.isEmpty()) {
             int currentVertex = queue.poll();
 
-            for(int neighbor : adjList.getOrDefault(currentVertex, Collections.emptyList())) {
-                if(!visited.contains(neighbor)) {
-                    queue.add(neighbor);
-                    visited.add(neighbor);
+            for(int neighbour : adjList.getOrDefault(currentVertex, Collections.emptyList())) {
+                if(!visited.contains(neighbour)) {
+                    queue.add(neighbour);
+                    visited.add(neighbour);
                 }
             }
         }

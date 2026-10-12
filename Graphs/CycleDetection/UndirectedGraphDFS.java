@@ -48,12 +48,12 @@ public class UndirectedGraphDFS {
     private boolean dfs(int node, int parent, Map<Integer, List<Integer>> adjList, boolean[] visited) {
         visited[node] = true;
 
-        for(int neighbor : adjList.get(node)) {
-            if(neighbor == parent) continue;
+        for(int neighbour : adjList.get(node)) {
+            if(neighbour == parent) continue;
 
-            if(visited[neighbor]) return true;            // its a cycle
+            if(visited[neighbour]) return true;            // its a cycle
 
-            if(dfs(neighbor, node, adjList, visited)) return true;
+            if(dfs(neighbour, node, adjList, visited)) return true;
         }
         return false;
     }

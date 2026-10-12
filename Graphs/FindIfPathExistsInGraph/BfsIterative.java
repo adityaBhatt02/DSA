@@ -28,10 +28,10 @@ PUBLIC class BfsIterative {
 
             if(currentNode == destination) return true;
 
-            for(int neighbor : adjList.get(currentNode)) {
-                if(!visited[neighbor]) {
-                    queue.offer(neighbor);
-                    visited[neighbor] = true;
+            for(int neighbour : adjList.get(currentNode)) {
+                if(!visited[neighbour]) {
+                    queue.offer(neighbour);
+                    visited[neighbour] = true;
                 }
             }
         }

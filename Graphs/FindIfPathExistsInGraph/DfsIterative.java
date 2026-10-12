@@ -32,10 +32,10 @@ public class DfsIterative {
 
             if(currentNode == destination) return true;
 
-            for(int neighbor : adjList.get(currentNode)) {
-                if(!visited[neighbor]) {
-                    stack.add(neighbor);
-                    visited[neighbor] = true;
+            for(int neighbour : adjList.get(currentNode)) {
+                if(!visited[neighbour]) {
+                    stack.add(neighbour);
+                    visited[neighbour] = true;
                 }
             }
         }

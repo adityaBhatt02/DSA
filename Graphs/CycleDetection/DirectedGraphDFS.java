@@ -54,12 +54,12 @@ public class DirectedGraphDFS {
         visited[node] = true;
         pathVisited[node] = true;
 
-        for(int neighbor : adjList.get(node)) {
-            if(!visited[neighbor]) {
-                if(dfs(neighbor, adjList, visited, pathVisited)) {
+        for(int neighbour : adjList.get(node)) {
+            if(!visited[neighbour]) {
+                if(dfs(neighbour, adjList, visited, pathVisited)) {
                     return true;
                 }
-            } else if(pathVisited[neighbor]) {
+            } else if(pathVisited[neighbour]) {
                 return true;       // if that neighbor is visited but if it is visited in this particular dfs path then thats a cycle
             }
         }

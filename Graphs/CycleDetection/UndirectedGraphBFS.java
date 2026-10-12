@@ -55,13 +55,13 @@ public class UndirectedGraphBFS {
             int parent = current[1];
 
 
-            for(int neighbor : adjList.get(node)) {
-                if(neighbor == parent) continue;
+            for(int neighbour : adjList.get(node)) {
+                if(neighbour == parent) continue;
 
-                if(visited[neighbor]) return true;            // its a cycle
+                if(visited[neighbour]) return true;            // its a cycle
 
-                queue.offer(new int[]{neighbor, node});
-                visited[neighbor] = true;
+                queue.offer(new int[]{neighbour, node});
+                visited[neighbour] = true;
             }
         }
         return false;
