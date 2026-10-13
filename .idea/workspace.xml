@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphs/CycleDetection/DirectedGraphBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/Topological Sorting/TopologicalSortBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs/Topological Sorting/Course Schedule/Course Schedule 1/CourseSchedule1BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs/Topological Sorting/Course Schedule/Course Schedule 1/CourseSchedule1DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs/Topological Sorting/Course Schedule/Course Schedule 2/CourseSchedule2BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphs/Topological Sorting/Course Schedule/Course Schedule 2/CourseSchedule2DFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +65,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Topological Sorting\Course Schedule\Course Schedule 2" />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Topological Sorting\Course Schedule\Course Schedule 2 " />
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Topological Sorting\Course Schedule\Course Schedule 1" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Trees\Sum" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Two Pointers" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\PrefixSum + HashMap (Subarray Problems)" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\BinarySearchQuestions\OnAnswers" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\LinkedListQuestions\MergeList" />
     </key>
   </component>
   <component name="SharedIndexes">
