@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DP/Fibonacci Number/TopDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/DP/Fibonacci Number/BottomUP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/DP/Stairs/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/Fibonacci Number/TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/DP/Fibonacci Number/TopDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/MinCostClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/DP/Stairs/MinCostClimbingStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +64,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\DP\Stairs" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\DP\Fibonacci Number" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Grid Traversal\BFS" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Grid Traversal\DFS" />
       <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Topological Sorting\Course Schedule\Course Schedule 2" />
-      <recent name="C:\Users\bhatt\OneDrive\Desktop\DSA\Graphs\Topological Sorting\Course Schedule\Course Schedule 2 " />
     </key>
   </component>
   <component name="SharedIndexes">
