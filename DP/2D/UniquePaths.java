@@ -19,16 +19,17 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
 3. Down -> Right -> Down
  */
 
+// Time - O(mn) and Space - O(mn)
 public class UnqiuePaths {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
 
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                if(i == 0 || j == 0) {           // if either row is 0 or col is 0 means there is only 1 total ways to reach that cell (becz a robot can move either right or left)
+                if(i == 0 || j == 0) {           //(Base Case) - if either row is 0 or col is 0 means there is only 1 total ways to reach that cell (becz a robot can move either right or down)
                     dp[i][j] = 1;
                 } else {
-                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];          // to reach a particular cell (i,j) the robot can either come either from the top (i-1 ,j) or from the left (i, j-1) of that cell .. top becz robot can move down , left becz robot can move right
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1];          //(Transition) - to reach a particular cell (i,j) the robot can either come either from the top (i-1 ,j) or from the left (i, j-1) of that cell .. top becz robot can move down , left becz robot can move right
                 }
             }
         }
