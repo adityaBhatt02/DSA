@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DP/2D/MinimumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/Strings/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DP/Strings/PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/Strings/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/Strings/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP/2D/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/DP/2D/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/SplitArrayLargestSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -67,8 +67,8 @@ class LargestRectangleInHistogram {
         int[] NSE = new int[n];
         int[] PSE = new int[n];
         for(int i = 0; i < heights.length; i++) {
-            NSE[i] = n;
-            PSE[i] = -1;              // no smaller element to the left → boundary is just before index 0
+            NSE[i] = n;               // The last valid index is 'n - 1'. Index 'n' is a virtual boundary just outside the array.
+            PSE[i] = -1;             // Think of -1 as a position just outside the beginning of the array.
         }
 
         // for nse
@@ -102,3 +102,15 @@ class LargestRectangleInHistogram {
         return maxArea;
     }
 }
+
+/*
+[10,9,3,9,10]
+_____            _____
+|   |____    ____|   |
+|   |   |    |   |   |
+|   |   |    |   |   |
+|   |   |____|   |   |
+|10 | 9 | 3  | 9 |10 |      nse[2] = 5, pse[2] = -1 , so -> width = 5 -> area = 15
+|   |   |    |   |   |
+
+*/

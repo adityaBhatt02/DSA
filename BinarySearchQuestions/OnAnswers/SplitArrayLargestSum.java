@@ -13,7 +13,7 @@ public class SplitArrayLargestSum {
         int maxSum = 0;
 
         for(int num : nums) {
-            minSum = Math.max(minSum, num);
+            minSum = Math.max(minSum, num);         // Because the largest element must belong to some subarray, and that subarray's sum cannot be smaller than that element.
             maxSum += num;
         }
 
