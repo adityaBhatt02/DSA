@@ -4,8 +4,8 @@ A permutation means: all possible arrangements / orders of the elements.
 
 For example:
 nums = [1, 2, 3]
-Its permutations are:
 
+Its permutations are:
 [1, 2, 3]
 [1, 3, 2]
 [2, 1, 3]

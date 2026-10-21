@@ -1,7 +1,7 @@
 package Maths;
 
 /*
-A number is happy when uss number ke hrr element ka square krke sum krte rhe fir uska fir uska then
+A number is happy when uss number ke hrr element ka square krke sum krte rhe, fir uska, fir uska then
 agr 1 aaya khi kisike sum ka then it will be happy number otherwise not (then infinite loop mae atk jaoge)
 
 so that's why we use floyd warshall technique for this slow and fast(just like in linkedlist cycle detection)

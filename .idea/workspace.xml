@@ -5,41 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65d3e05f-5849-457c-bede-d76c93b41725" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/CountingBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/NumberOf1Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/ReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bit Manipulation/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bit Manipulation/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/CeilingAndFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/CeilingAndFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/CountOccurrencesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/CountOccurrencesInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/FindMedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/FindMedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/FindNthRootOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/FindNthRootOfANumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/GuessNumberHigherOrLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/GuessNumberHigherOrLower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/Heaters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/Heaters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/LastOccurrenceInASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/LastOccurrenceInASortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/LowerBound/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/LowerBound/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/LowerBound/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/LowerBound/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/MountainArray/FindInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/MountainArray/FindInMountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/MountainArray/PeakInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/MountainArray/PeakInMountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/MountainArray/TargetInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/MountainArray/TargetInMountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/MountainArray/ValidMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/MountainArray/ValidMountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/BookAllocationProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/OnAnswers/BookAllocationProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/CapacityToShipPackagesWithinDdays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/OnAnswers/CapacityToShipPackagesWithinDdays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/OnAnswers/KokoEatingBananas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/MinimumNumberOfDaysToMakeMBouquets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/OnAnswers/MinimumNumberOfDaysToMakeMBouquets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/OnAnswers/SplitArrayLargestSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/OnAnswers/SqrtRootUsingBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/OnAnswers/SqrtRootUsingBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/FirstAndLastPositionInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/RotatedSortedArray/FirstAndLastPositionInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/MinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/RotatedSortedArray/MinimumInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/RotationCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/RotatedSortedArray/RotationCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/RotatedSortedArray/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/RotatedSortedArray/SearchInRotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/RotatedSortedArray/SearchInRotatedSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SearchIn2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/SearchIn2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SearchIn2DMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/SearchIn2DMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SingleElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/SingleElementInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchQuestions/SmallestLetterGreaterThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Search/SmallestLetterGreaterThanTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maths/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Maths/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion &amp; Backtracking/Permutations/Premutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion &amp; Backtracking/Permutations/Premutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion &amp; Backtracking/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Recursion &amp; Backtracking/WordSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

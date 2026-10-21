@@ -39,9 +39,8 @@ public class WordSearch {
         if (row < 0 || row >= rows || col < 0 || col >= cols) return false;
 
         // Current cell doesn't match
-        if (board[row][col] != word.charAt(pos)) {
-            return false;
-        }
+        if (board[row][col] != word.charAt(pos)) return false;
+
 
         // Mark current cell as visited
         char original = board[row][col];
