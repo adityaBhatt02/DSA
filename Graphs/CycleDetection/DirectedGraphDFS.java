@@ -60,7 +60,7 @@ public class DirectedGraphDFS {
                     return true;
                 }
             } else if(pathVisited[neighbour]) {
-                return true;       // if that neighbor is visited but if it is visited in this particular dfs path then thats a cycle
+                return true;       // if that neighbor is visited but if it is visited in this particular dfs path also then thats a cycle
             }
         }
 
