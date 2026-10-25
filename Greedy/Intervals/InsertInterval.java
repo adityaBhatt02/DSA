@@ -1,7 +1,8 @@
 package Greedy.Intervals;
 
 /*
-so in this ques we are given intervals, and they are already sorted, and we are also given a new interval, and we are asked to insert that interval into other intervals
+so in this ques we are given intervals, and they are already sorted, and we are also given a new interval, and we are asked to
+insert that interval into other intervals
 without making any overlapping b/w them.
 so our approach is that : BEFORE → OVERLAP → AFTER
 
